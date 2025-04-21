@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Tahoma, sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+#left {
+    position: relative;
+    width: 30%;
+    height: 100%;
+    background-color: rgb(194, 71, 71);
+}
+
+#right {
+    background-color: #00000025;
+    position: relative;
+    width: 70%;
+    height: 100%;
+}
+
+#right>img {
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translate(-50%, -50%)rotate(-30deg);
+    mix-blend-mode: darken;
+}
+
+#left-text {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    color: #fff;
+}
+
+#left-text h1 {
+    font-size: 40px;
+}
+
+#left-text span {
+    font-weight: 300;
+}
+
+#left-text h2 {
+    font-weight: 300;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+#left-text p {
+    font-size: 15px;
+    width: 70%;
+    line-height: 1.7;
+}
+
+#left-text button {
+    padding: 9px 15px;
+    margin-top: 30px;
+    font-weight: 600;
+
+}
+
+#left-btm {
+    padding: 12px;
+    position: absolute;
+    bottom: 3%;
+    width: 90%;
+    background-color: #fff;
+}
+
+#left-btm h3 {
+    font-size: 17px;
+    margin-bottom: 6px;
+}
+
+#left-btm p {
+    font-size: 12px;
+    width: 70%;
+}
+
+#right-center-text {
+    position: absolute;
+    top: 15%;
+    left: 40%;
+}
+
+#right-center-text h1 {
+    color: rgb(204, 62, 62);
+    font-size: 50px;
+    margin-bottom: 13px;
+}
+
+#right-center-text h1 span {
+    color: #000000;
+    font-weight: 300;
+}
+
+#right-center-text h2 {
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+#right-center-text h2 span {
+    color: rgb(195, 53, 53);
+    font-weight: 700;
+}
+
+#right-center-text p {
+    font-size: 13px;
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+#btns {
+    display: flex;
+    gap: 20px;
+}
+
+#btns button {
+    font-size: 12px;
+    padding: 8px 12px;
+}
+
+#btns button:nth-child(1) {
+    border: 1px solid grey;
+    border-radius: 5px;
+    background-color: transparent;
+    color: brown;
+    font-weight: 500;
+}
+
+#btns button:nth-child(2) {
+    background-color: rgb(204, 59, 59);
+    border: none;
+    border-radius: 50px;
+    color: #fff;
+}
+
+#hed {
+    color: brown;
+    margin-top: 30px;
+}
+
+.samples-items {
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+}
+
+.items {
+    width: 140px;
+}
+
+.items img {
+    width: 100%;
+}
